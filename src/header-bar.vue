@@ -68,7 +68,7 @@
 import axios from 'axios'
 
 export default {
-  name: 'Header',
+  name: 'HeaderBar',
   data () {
     return {
       authenticated: false,
@@ -110,5 +110,4 @@ export default {
 .navHeight {
   height: 52px;
 }
-
 </style>
