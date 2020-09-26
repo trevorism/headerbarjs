@@ -1,6 +1,6 @@
 # headerbarjs
-[![npm (scoped)](https://img.shields.io/npm/v/@trevorism/firstjs.svg)](https://www.npmjs.com/package/@trevorism/headerbar)
-[![npm bundle size (minified)](https://img.shields.io/bundlephobia/min/@trevorism/firstjs.svg)](https://www.npmjs.com/package/@trevorism/headerbar)
+[![npm (scoped)](https://img.shields.io/npm/v/@trevorism/headerbar.svg)](https://www.npmjs.com/package/@trevorism/headerbar)
+[![npm bundle size (minified)](https://img.shields.io/bundlephobia/min/@trevorism/headerbar.svg)](https://www.npmjs.com/package/@trevorism/headerbar)
 
 Vue based header bar component for Trevorism.com apps. This is compatible with Vue 2.
 
@@ -33,9 +33,12 @@ export default {
 
 This project used the vue-sfc-rollup plugin to scaffold the code.
 
-`npm install -g vue-sfc-rollup`
 
-`sfc-init`
+```
+npm install -g vue-sfc-rollup
+
+sfc-init
+```
 
 ### Development server
 ```
@@ -50,5 +53,7 @@ npm run build
 Exposes a vue component over npm
 
 `npm login`
-`npm version <update_type>`
+
+`npm version <update_type>`  <update type> (patch, major, or minor)
+
 `npm publish --access=public`
