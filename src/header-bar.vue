@@ -54,7 +54,7 @@
               Account
             </b-navbar-item>
             <b-navbar-item tag="div">
-              <a @click="logout()" class="button is-primary">Logout</a>
+              <a class="button is-primary" href="https://www.trevorism.com/logout">Logout</a>
             </b-navbar-item>
           </b-navbar-dropdown>
         </div>
@@ -65,8 +65,6 @@
 </template>
 
 <script>
-import axios from 'axios'
-
 export default {
   name: 'HeaderBar',
   data () {
@@ -83,19 +81,6 @@ export default {
       this.username = this.$cookies.get('user_name')
       this.admin = this.$cookies.get('admin') === 'true'
       this.authenticated = !!this.username
-    },
-    logout: function () {
-      let self = this
-      axios.post('https://trevorism.com/api/logout')
-          .then(() => {
-            self.$cookies.remove('user_name')
-            self.$cookies.remove('admin')
-            this.checkAuthenticated()
-            window.location.href = self.currentUrl
-          })
-          .catch(() => {
-
-          })
     }
   },
   mounted () {

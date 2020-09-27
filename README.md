@@ -6,7 +6,7 @@ Vue based header bar component for Trevorism.com apps. This is compatible with V
 
 ## Prerequisites
 
-Assumes `vue`, `buefy`, `VueCookies` and `axios` are being used.
+Assumes `vue`, `buefy`, `VueCookies` are being used.
 
 ## Usage
 ```
