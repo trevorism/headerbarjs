@@ -56,4 +56,6 @@ Exposes a vue component over npm
 
 `npm version <update_type>`  <update type> (patch, major, or minor)
 
+`npm run build`
+
 `npm publish --access=public`
