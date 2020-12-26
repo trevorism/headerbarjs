@@ -35,6 +35,9 @@
           <b-navbar-item href="https://www.trevorism.com/articles/production">
             Productionalized Service 02/2018
           </b-navbar-item>
+          <b-navbar-item href="https://www.trevorism.com/articles/improvement">
+            Scientific Improvement 12/2020
+          </b-navbar-item>
         </b-navbar-dropdown>
 
         <b-navbar-item href="https://www.trevorism.com/contact">
